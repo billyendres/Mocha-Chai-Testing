@@ -29,3 +29,9 @@ describe("#alwaysTrue", () => {
     expect(alwaysTrue()).to.not.be.false;
   });
 });
+
+describe("#legit string", () => {
+  it("should always be a string", () => {
+    expect(legitString()).to.be.string;
+  });
+});
